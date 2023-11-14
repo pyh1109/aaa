@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "../../inheritance01"
+		},
+		{
+			"path": "../../stringEx"
+		},
+		{
+			"path": "../../mathEx"
+		},
+		{
+			"path": "../../collectionEx.java"
+		},
+		{
+			"path": "../../swingEx"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			""
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		],
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

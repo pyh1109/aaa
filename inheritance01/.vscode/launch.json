@@ -1,0 +1,112 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CreditCardPayment",
+            "request": "launch",
+            "mainClass": "buyseller.CreditCardPayment",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex01_StringBuffer",
+            "request": "launch",
+            "mainClass": "stringBufferEx.Ex01_StringBuffer",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex02_contruct02",
+            "request": "launch",
+            "mainClass": "inheritance.Ex02_contruct02",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex03_Calc",
+            "request": "launch",
+            "mainClass": "abstractEx.Ex03_Calc",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex01_Interface",
+            "request": "launch",
+            "mainClass": "interfaceEx.Ex01_Interface",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex01_Calc",
+            "request": "launch",
+            "mainClass": "abstractEx.Ex01_Calc",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex04_downcasting02",
+            "request": "launch",
+            "mainClass": "Ex04_downcasting02",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex06_methodOverriding03",
+            "request": "launch",
+            "mainClass": "Ex06_methodOverriding03",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex02_construct",
+            "request": "launch",
+            "mainClass": "Ex02_construct",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex05_instanceof",
+            "request": "launch",
+            "mainClass": "Ex05_instanceof",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex03_upcasting",
+            "request": "launch",
+            "mainClass": "Ex03_upcasting",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Ex04_downcasting",
+            "request": "launch",
+            "mainClass": "Ex04_downcasting",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ConstructEx",
+            "request": "launch",
+            "mainClass": "ConstructEx",
+            "projectName": "inheritance01_ea3f2e6a"
+        },
+        {
+            "type": "java",
+            "name": "ContructEx01",
+            "request": "launch",
+            "mainClass": "ContructEx01",
+            "projectName": "inheritance01_ea3f2e6a"
+        }
+    ]
+}

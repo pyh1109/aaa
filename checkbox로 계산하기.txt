@@ -1,0 +1,51 @@
+public class ItemEx extends JFrame{
+	private JCheckBox[] fruits = new JCheckBox[3];
+	private String names[] = {"사과","배","체리"};
+	private Jlabel sumLabel;
+	
+	public ItemEx(){
+	super("연습");
+	setDefaultCloseOperation(EXIT_ON_CLOSE);
+	
+	Container c = getContentPane();
+	c.setLayout(new FlowLayout());
+
+	c.add(new JLabel("사과 500원, 배 1000원, 체리 2000원");
+	MyEx listener = new MyEx();
+
+	for(int i=0; i<fruits.length; i++){
+	fruits[i]=new JCeckBox(new names[i]);
+	fruits[i].setBorderPainted(true);
+	fruits[i].addItemListener(listener);
+	c.add(fruits[i]);
+}
+sumLabel=new JLabel("대금 총액은 0원입니다");
+c.setSize(300,300);
+c.setVisible(true);
+}
+class Myex implements ItemListener{
+	int sum = 0;
+	public void itemStateChanged(ItemEvent e){
+		if(e.getStateChanged.SELECT()==ItemEventED){
+			if(e.getItem == fruits[0])
+					sum += 500;
+			else if(e.getItem == fruits[1])
+					sum += 1000;
+			else
+					sum += 2000;
+		else
+			if(e.getItem == fruits[0])
+					sum -= 500;
+			else if(e.getItem == fruits[1])
+					sum -= 1000
+			else
+					sum -= 2000
+}	
+sumLabel.steText("상품 대금 총액은 + sum +"입니다");
+}
+}
+
+public static void main(String[] args){
+	new ItemEx();
+}
+}
